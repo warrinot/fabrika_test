@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="123b12c0-fe20-496d-b44c-f60ce2f77ac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="123b12c0-fe20-496d-b44c-f60ce2f77ac7" name="Default Changelist" comment="added models for Poll, Question, Choice, UserChoice&#10;api for admin, api for users">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/users_api/user_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/users_api/user_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +50,45 @@
       <option name="presentableId" value="Default" />
       <updated>1605424615556</updated>
     </task>
+    <task id="LOCAL-00001" summary="added models for Poll, Question, Choice, UserChoice&#10;api for admin, api for users">
+      <created>1605455308308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605455308308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added models for Poll, Question, Choice, UserChoice&#10;api for admin, api for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="added models for Poll, Question, Choice, UserChoice&#10;api for admin, api for users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="229" key="#Python" timestamp="1605427183983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="759" y="229" key="#Python/0.0.1920.1040@0.0.1920.1040" timestamp="1605427183983" />
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605449442804">
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605464968581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605449442804" />
+    <state x="718" y="390" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605464968581" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605453153987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605453153987" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605455430295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605455430295" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605455594505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605455594505" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605455325473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605455325473" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605425575065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,0 +1,1709 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "polls",
+    "model": "poll"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "polls",
+    "model": "question"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "polls",
+    "model": "choice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "polls",
+    "model": "userchoice"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3zv1esfiuu0jn8x85vuyv78t137ulei6",
+  "fields": {
+    "session_data": "YTExZjQ4ODllZjExYWVkZjM0ODY0YWUxZTU2ZWM5ZDYyMzM3ZjgwOTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1MGYyNWNiMmU2NzA1ZDMzODExOTQ1ZDRhZjI0NzQzZTVhM2U5OTkxIn0=",
+    "expire_date": "2020-11-29T10:25:44.118Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6v7rp8ibeas0w1xcfwcmfbgzgcwpfrim",
+  "fields": {
+    "session_data": "YTExZjQ4ODllZjExYWVkZjM0ODY0YWUxZTU2ZWM5ZDYyMzM3ZjgwOTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1MGYyNWNiMmU2NzA1ZDMzODExOTQ1ZDRhZjI0NzQzZTVhM2U5OTkxIn0=",
+    "expire_date": "2020-11-29T08:55:03.903Z"
+  }
+},
+{
+  "model": "polls.poll",
+  "pk": 6,
+  "fields": {
+    "name": "\u041a\u0435\u043c \u0431\u044b \u0432\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u043b\u0438, \u0435\u0441\u043b\u0438 \u0431 \u043d\u0435 \u043f\u043e\u0448\u043b\u0438 \u0432 IT?",
+    "started": "2020-11-15T14:28:46.739Z",
+    "ended": null,
+    "description": "\u0417\u0430\u0434\u0430\u0432\u0430\u043b\u0438\u0441\u044c \u043a\u043e\u0433\u0434\u0430-\u043d\u0438\u0431\u0443\u0434\u044c \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u043c, \u043a\u0435\u043c \u0431\u044b \u0432\u044b \u043c\u043e\u0433\u043b\u0438 \u0441\u0442\u0430\u0442\u044c, \u0435\u0441\u043b\u0438 \u0431 \u043d\u0435 \u043f\u043e\u0448\u043b\u0438 \u0432 \u0441\u0444\u0435\u0440\u0443 IT? \u0414\u0430\u0432\u0430\u0439\u0442\u0435 \u043f\u043e\u0444\u0430\u043d\u0442\u0430\u0437\u0438\u0440\u0443\u0435\u043c: \u043e\u0442\u0432\u0435\u0442\u044c\u0442\u0435 \u043d\u0430 10 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432 \u043d\u0430\u0448\u0435\u0433\u043e \u0440\u0430\u0437\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0442\u0435\u0441\u0442\u0430 \u0438 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u0435 \u043e\u0434\u0438\u043d \u0438\u0437 \u043d\u0435\u043e\u0431\u044b\u0447\u043d\u044b\u0445 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u043e\u0432 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u0438"
+  }
+},
+{
+  "model": "polls.poll",
+  "pk": 7,
+  "fields": {
+    "name": "\u041a\u0430\u043a\u043e\u0439 \u044f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0432\u0430\u0448\u0435\u043c\u0443 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u043c\u0443 \u043c\u0438\u0440\u0443? \u2014 \u0442\u0435\u0441\u0442 \u043e\u0442 Tproger \u0438 Ozon",
+    "started": "2020-11-15T14:52:45.703Z",
+    "ended": null,
+    "description": "\u041f\u043e\u044d\u0442 \u2014 \u041f\u0443\u0448\u043a\u0438\u043d, \u043e\u0440\u0430\u043d\u0436\u0435\u0432\u044b\u0439 \u2014 \u0430\u043f\u0435\u043b\u044c\u0441\u0438\u043d, \u043c\u0430\u043b\u0438\u043d\u043e\u0432\u044b\u0439 \u043f\u0438\u0434\u0436\u0430\u043a \u2014 \u043d\u043e\u0432\u044b\u0439 \u0440\u0443\u0441\u0441\u043a\u0438\u0439, \u0430 PHP \u2014 \u2026 . \u0412\u043c\u0435\u0441\u0442\u0435 \u0441 Ozon \u0441\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438 \u0434\u043b\u044f \u0432\u0430\u0441 \u0448\u0443\u0442\u043e\u0447\u043d\u044b\u0439 \u0430\u0441\u0441\u043e\u0446\u0438\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u0442\u0435\u0441\u0442: \u0432\u044b\u0431\u0438\u0440\u0430\u0439\u0442\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u043d\u0435 \u0437\u0430\u0434\u0443\u043c\u044b\u0432\u0430\u044f\u0441\u044c \u043d\u0430\u0434 \u0441\u043a\u0440\u044b\u0442\u044b\u043c \u0441\u043c\u044b\u0441\u043b\u043e\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432, \u0430 \u043c\u044b \u0440\u0430\u0441\u0441\u043a\u0430\u0436\u0435\u043c, \u043a\u0430\u043a\u043e\u0439 \u044f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0432\u0430\u0448\u0435\u043c\u0443 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u043c\u0443 \u043c\u0438\u0440\u0443."
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 4,
+  "fields": {
+    "poll": 6,
+    "text": "\u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044c\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u0432 \u0441\u0432\u043e\u0435\u0439 \u043a\u043e\u043c\u043d\u0430\u0442\u0435, \u043f\u0438\u0448\u0435\u0442\u0435 \u043a\u043e\u0434, \u0430 \u043f\u0435\u0440\u0435\u0434 \u0432\u0430\u043c\u0438 \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043f\u043e\u043b\u043a\u0430. \u041a\u0430\u043a\u0430\u044f \u043a\u043d\u0438\u0433\u0430 \u0442\u0430\u043c \u0442\u043e\u0447\u043d\u043e \u0435\u0441\u0442\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 5,
+  "fields": {
+    "poll": 6,
+    "text": "\u0412\u0430\u043c \u043f\u043e\u0440\u0443\u0447\u0438\u043b\u0438 \u0441\u043b\u043e\u0436\u043d\u044b\u0439 \u0442\u0430\u0441\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u044b \u043d\u0438\u043a\u0430\u043a \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0438\u0442\u044c. \u0427\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u0435\u0442\u0435 \u0432 \u043f\u0435\u0440\u0432\u0443\u044e \u043e\u0447\u0435\u0440\u0435\u0434\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 6,
+  "fields": {
+    "poll": 6,
+    "text": "\u0412\u044b \u043e\u0447\u0435\u043d\u044c \u0441\u043f\u0435\u0448\u0438\u043b\u0438, \u0438 \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0441\u044f \u0441\u043f\u0430\u0433\u0435\u0442\u0442\u0438-\u043a\u043e\u0434. \u0427\u0442\u043e \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043c\u0438\u0442\u0435?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 7,
+  "fields": {
+    "poll": 6,
+    "text": "\u0412 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u0431\u0430\u0440\u0434\u0430\u043a \u0438 \u043c\u0430\u043b\u043e \u043a\u043e\u043c\u043c\u0438\u0442\u043e\u0432. \u0422\u0438\u043c\u043b\u0438\u0434 \u0441\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u0442, \u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435\u0441\u044c \u043b\u0438 \u0432\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0432\u0435\u0440\u0441\u0438\u0439. \u0427\u0442\u043e \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u0435?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 8,
+  "fields": {
+    "poll": 6,
+    "text": "\u041d\u0430 \u043d\u043e\u0441\u0443 \u0432\u0430\u0436\u043d\u0430\u044f \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f, \u043e\u0442 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u0432\u0430\u0448\u0430 \u043a\u0430\u0440\u044c\u0435\u0440\u0430. \u041a\u0430\u043a \u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0435\u0441\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 9,
+  "fields": {
+    "poll": 6,
+    "text": "\u041d\u0430 \u0441\u043e\u0431\u0435\u0441\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0438 \u0432\u0430\u043c \u0437\u0430\u0434\u0430\u043b\u0438 \u0432\u043e\u043f\u0440\u043e\u0441, \u043e\u0442\u0432\u0435\u0442\u0430 \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u044b \u043d\u0435 \u0437\u043d\u0430\u0435\u0442\u0435. \u0427\u0442\u043e \u0431\u0443\u0434\u0435\u0442\u0435 \u0434\u0435\u043b\u0430\u0442\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 10,
+  "fields": {
+    "poll": 6,
+    "text": "\u041a\u043e\u043b\u043b\u0435\u0433\u0430 \u043f\u0440\u043e\u0441\u0438\u0442 \u043f\u043e\u043c\u043e\u0447\u044c \u0441\u043e \u0441\u043b\u043e\u0436\u043d\u044b\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u043c, \u0445\u043e\u0442\u044f \u0443 \u0432\u0430\u0441 \u0442\u043e\u0436\u0435 \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0435\u043c\u0430\u043b\u043e. \u041e\u0442\u043a\u043b\u0438\u043a\u043d\u0435\u0442\u0435\u0441\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 11,
+  "fields": {
+    "poll": 6,
+    "text": "\u0413\u0440\u044f\u0434\u0451\u0442 \u043f\u043b\u0430\u043d\u043e\u0432\u044b\u0439 \u043f\u0435\u0440\u0435\u0441\u043c\u043e\u0442\u0440 \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u044b. \u041a\u0430\u043a \u0432\u044b \u043a \u043d\u0435\u043c\u0443 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0435\u0441\u044c?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 12,
+  "fields": {
+    "poll": 6,
+    "text": "\u0422\u0438\u043c\u043b\u0438\u0434 \u043f\u0440\u043e\u0441\u0438\u0442 \u0432\u0430\u0441 \u043f\u043e\u043c\u043e\u0447\u044c \u0441 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0435\u0439 \u0442\u0438\u043c\u0431\u0438\u043b\u0434\u0438\u043d\u0433\u0430. \u0427\u0442\u043e \u043f\u043e\u0441\u043e\u0432\u0435\u0442\u0443\u0435\u0442\u0435 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0432 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443?",
+    "question_type": 1
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 13,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u0431\u044b \u0445\u043e\u0442\u0435\u043b\u0438, \u0447\u0442\u043e\u0431\u044b \u043a\u0443\u0440\u044c\u0435\u0440, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0432\u0430\u0448 \u0437\u0430\u043a\u0430\u0437 \u0441 \u043e\u043d\u043b\u0430\u0439\u043d-\u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0438, \u0431\u044b\u043b:",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 14,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u043f\u043e\u043a\u0443\u043f\u0430\u0435\u0442\u0435 \u0438\u0433\u0440\u043e\u0432\u043e\u0435 \u043a\u0440\u0435\u0441\u043b\u043e \u043d\u0430 \u043c\u0430\u0440\u043a\u0435\u0442\u043f\u043b\u0435\u0439\u0441\u0435, \u043d\u0430 \u0432\u044b\u0431\u043e\u0440 \u0435\u0441\u0442\u044c 4 \u043f\u0440\u043e\u0434\u0430\u0432\u0446\u0430: \u0443 \u043e\u0434\u043d\u043e\u0433\u043e \u043d\u0438\u0437\u043a\u0430\u044f \u0446\u0435\u043d\u0430, \u0432\u0442\u043e\u0440\u043e\u0439 \u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442 \u0434\u0435\u043d\u044c \u0432 \u0434\u0435\u043d\u044c, \u0442\u0440\u0435\u0442\u0438\u0439 \u0434\u0430\u0451\u0442 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u044e \u0434\u0435\u0441\u044f\u0442\u044c \u043b\u0435\u0442, \u0430 \u0443 \u0447\u0435\u0442\u0432\u0451\u0440\u0442\u043e\u0433\u043e \u043e\u0442\u043b\u0438\u0447\u043d\u044b\u0435 \u043e\u0442\u0437\u044b\u0432\u044b. \u041a\u043e\u0433\u043e \u0432\u044b\u0431\u0435\u0440\u0435\u0442\u0435?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 15,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u0443\u0441\u0442\u0440\u043e\u0438\u043b\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0438 \u0442\u0430\u043c \u043d\u0430\u0441\u0442\u043e\u043b\u044c\u043a\u043e \u0441\u0443\u0440\u043e\u0432\u044b\u0439 NDA, \u0447\u0442\u043e \u0432\u0441\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438 \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043d\u0430 \u043e\u0434\u043d\u043e\u043c \u0438\u0437 \u0432\u044b\u0434\u0443\u043c\u0430\u043d\u043d\u044b\u0445 \u044f\u0437\u044b\u043a\u043e\u0432. \u041a\u0430\u043a\u043e\u0439 \u044f\u0437\u044b\u043a \u0432\u0430\u043c \u0431\u043b\u0438\u0436\u0435?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 16,
+  "fields": {
+    "poll": 7,
+    "text": "\u0413\u0434\u0435 \u0432\u0430\u043c \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u0435\u0435 \u0432\u0441\u0435\u0433\u043e \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u044c \u043e\u0434\u0435\u0436\u0434\u0443 \u0438 \u0442\u0435\u0445\u043d\u0438\u043a\u0443?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 17,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u043f\u0435\u0440\u0435\u0435\u0445\u0430\u043b\u0438 \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0443 \u0438 \u0442\u0430\u043c \u043d\u0435\u0447\u0435\u043c \u0443\u0431\u0438\u0440\u0430\u0442\u044c \u043f\u043e\u043b. \u0427\u0442\u043e \u043a\u0443\u043f\u0438\u0442\u0435?",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 18,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u0443\u0441\u0442\u0440\u043e\u0438\u043b\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0438 \u0440\u0430\u0431\u043e\u0442\u043e\u0434\u0430\u0442\u0435\u043b\u044c \u0433\u043e\u0442\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0432\u0430\u043c \u0440\u0430\u0431\u043e\u0447\u0435\u0435 \u043c\u0435\u0441\u0442\u043e \u0432\u0430\u0448\u0435\u0439 \u043c\u0435\u0447\u0442\u044b. \u0412\u044b \u0431\u0443\u0434\u0435\u0442\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c:",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.question",
+  "pk": 19,
+  "fields": {
+    "poll": 7,
+    "text": "\u0412\u044b \u043a\u0443\u043f\u0438\u043b\u0438 \u0447\u0442\u043e-\u0442\u043e \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0435 \u0438 \u0445\u043e\u0442\u0438\u0442\u0435 \u043d\u0430\u043f\u0438\u0441\u0430\u0442\u044c \u043e\u0442\u0437\u044b\u0432. \u0412\u0430\u0448 \u043e\u0442\u0437\u044b\u0432:",
+    "question_type": 2
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 7,
+  "fields": {
+    "question": 4,
+    "text": "\u0418\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f\u00bb, \u0414. \u041a\u043d\u0443\u0442"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 8,
+  "fields": {
+    "question": 4,
+    "text": "\u00ab\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0434\u043b\u044f \u0433\u0443\u043c\u0430\u043d\u0438\u0442\u0430\u0440\u0438\u0435\u0432\u00bb, \u042e. \u0414\u0435\u043d\u0438\u0441\u043e\u0432"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 9,
+  "fields": {
+    "question": 4,
+    "text": "\u00ab\u041f\u044f\u0442\u044c \u043f\u043e\u0440\u043e\u043a\u043e\u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u044b\u00bb, \u041f. \u041b\u0435\u043d\u0441\u0438\u043e\u043d\u0438"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 10,
+  "fields": {
+    "question": 4,
+    "text": "\u00abGoogle: \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u043f\u043e\u0438\u0441\u043a \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0432 \u0418\u043d\u0442\u0435\u0440\u043d\u0435\u0442. \u0413\u0443\u0433\u043b \u043f\u043e\u0438\u0441\u043a\u00bb, \u0412. \u0413\u0443\u0441\u0435\u0432"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 11,
+  "fields": {
+    "question": 5,
+    "text": "\u041f\u043e\u0431\u0435\u0433\u0443 \u043d\u0430 StackOverflow \u0437\u0430 \u0433\u043e\u0442\u043e\u0432\u044b\u043c\u0438 \u043e\u0442\u0432\u0435\u0442\u0430\u043c\u0438"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 12,
+  "fields": {
+    "question": 5,
+    "text": "\u041f\u043e\u0431\u0435\u0433\u0443 \u043d\u0430 StackOverflow \u0437\u0430\u0434\u0430\u0432\u0430\u0442\u044c \u0432\u043e\u043f\u0440\u043e\u0441\u044b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 13,
+  "fields": {
+    "question": 5,
+    "text": "\u041e\u043f\u0440\u043e\u0448\u0443 \u043a\u043e\u043b\u043b\u0435\u0433 \u0438 \u0432\u043e\u043e\u0440\u0443\u0436\u0443\u0441\u044c \u0438\u0445 \u0441\u043e\u0432\u0435\u0442\u0430\u043c\u0438"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 14,
+  "fields": {
+    "question": 5,
+    "text": "\u0414\u043e\u0431\u0430\u0432\u043b\u044e \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c\u043d\u044b\u0435 \u0442\u043e\u0447\u043a\u0438, \u043d\u0430\u0447\u043d\u0443 \u0434\u0435\u0431\u0430\u0436\u0438\u0442\u044c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 15,
+  "fields": {
+    "question": 6,
+    "text": "\u041f\u043e\u043a\u043e\u043f\u0430\u044e\u0441\u044c \u0432 \u0441\u0442\u0430\u0440\u044b\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u0430\u0445, \u0432\u0435\u0434\u044c \u0447\u0442\u043e-\u0442\u043e \u043f\u043e\u0434\u043e\u0431\u043d\u043e\u0435 \u044f \u0443\u0436\u0435 \u0442\u043e\u0447\u043d\u043e \u043f\u0438\u0441\u0430\u043b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 16,
+  "fields": {
+    "question": 6,
+    "text": "\u041d\u0430\u0439\u0434\u0443 best practices \u0434\u043b\u044f \u0447\u0438\u0441\u0442\u043e\u0433\u043e \u043a\u043e\u0434\u0430 \u0438 \u0431\u0443\u0434\u0443 \u0438\u043c \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 17,
+  "fields": {
+    "question": 6,
+    "text": "\u041f\u043e\u0438\u0449\u0443 \u0430\u043d\u0430\u043b\u043e\u0433\u0438\u0447\u043d\u044b\u0435 \u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u044b, \u043f\u0440\u0438\u043c\u0435\u043d\u044e \u043b\u0443\u0447\u0448\u0438\u0435 \u043d\u0430\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0432 \u0441\u0432\u043e\u0451\u043c \u043a\u043e\u0434\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 18,
+  "fields": {
+    "question": 6,
+    "text": "\u041c\u043d\u0435 \u0441\u043b\u043e\u0436\u043d\u043e \u0438\u0437\u043c\u0435\u043d\u044f\u0442\u044c \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0435, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043f\u0435\u0440\u0435\u043f\u0438\u0448\u0443 \u0441 \u043d\u0443\u043b\u044f"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 19,
+  "fields": {
+    "question": 7,
+    "text": "\u041f\u043e\u0447\u0442\u0438 \u043d\u0435 \u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0441\u044c: \u0432\u0441\u0435 \u0432\u0435\u0440\u0441\u0438\u0438 \u0445\u0440\u0430\u043d\u044e \u043d\u0430 \u0440\u0430\u0431\u043e\u0447\u0435\u043c \u0441\u0442\u043e\u043b\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 20,
+  "fields": {
+    "question": 7,
+    "text": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u043a\u0443\u0434\u0430 \u0436 \u0431\u0435\u0437 \u043d\u0435\u0451?"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 21,
+  "fields": {
+    "question": 7,
+    "text": "\u0418\u043d\u043e\u0433\u0434\u0430: \u0447\u0442\u043e-\u0442\u043e \u043f\u0443\u0448\u0443, \u0430 \u0447\u0442\u043e-\u0442\u043e \u043c\u043e\u0433\u0443 \u0438 \u0432 \u0431\u043b\u043e\u043a\u043d\u043e\u0442\u0435 \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 22,
+  "fields": {
+    "question": 7,
+    "text": "\u0422\u043e\u043b\u044c\u043a\u043e \u043a\u043e\u0433\u0434\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u044e \u043d\u0430\u0434 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u044b\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u043c: \u043d\u0435 \u043f\u043e\u0434\u0432\u043e\u0434\u0438\u0442\u044c \u0436\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u0443"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 23,
+  "fields": {
+    "question": 8,
+    "text": "\u041a\u043e\u043d\u0441\u043f\u0435\u043a\u0442\u0438\u0440\u0443\u044e \u0442\u0435\u0440\u043c\u0438\u043d\u043e\u043b\u043e\u0433\u0438\u044e, \u0432\u044b\u043f\u0438\u0441\u044b\u0432\u0430\u044e \u0432\u0441\u0451 \u0441\u0430\u043c\u043e\u0435 \u0441\u043b\u043e\u0436\u043d\u043e\u0435 \u0438 \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u044e\u0441\u044c \u0441 \u044d\u0442\u0438\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 24,
+  "fields": {
+    "question": 8,
+    "text": "\u0417\u0430\u043a\u0430\u043f\u044b\u0432\u0430\u044e\u0441\u044c \u0432 \u043a\u043d\u0438\u0433\u0438 \u0438 \u043f\u0440\u043e\u0447\u0438\u0435 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 25,
+  "fields": {
+    "question": 8,
+    "text": "\u041f\u044b\u0442\u0430\u044e\u0441\u044c \u043e\u0431\u044a\u044f\u0441\u043d\u0438\u0442\u044c \u0442\u043e, \u0447\u0442\u043e \u0437\u043d\u0430\u044e, \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0443, \u0434\u0430\u043b\u0451\u043a\u043e\u043c\u0443 \u043e\u0442 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f: \u0435\u0441\u043b\u0438 \u043c\u043e\u0433\u0443 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e \u043e\u0431\u044a\u044f\u0441\u043d\u0438\u0442\u044c, \u0437\u043d\u0430\u0447\u0438\u0442, \u043f\u043e\u043d\u0438\u043c\u0430\u044e \u0441\u0430\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 26,
+  "fields": {
+    "question": 8,
+    "text": "\u0417\u0430\u0440\u0430\u043d\u0435\u0435 \u0438\u0449\u0443 \u0433\u043e\u0442\u043e\u0432\u044b\u0435 \u043e\u0442\u0432\u0435\u0442\u044b \u043d\u0430 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b, \u0447\u0442\u043e\u0431\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u044d\u0442\u0443 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u0443\u0436\u0435 \u0432 \u0441\u0432\u043e\u0438\u0445 \u043e\u0442\u0432\u0435\u0442\u0430\u0445"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 27,
+  "fields": {
+    "question": 9,
+    "text": "\u0412\u0441\u043f\u043e\u043c\u043d\u044e \u0432\u0441\u0451 \u043e\u043a\u043e\u043b\u043e \u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438\u0437 \u043a\u043d\u0438\u0433, \u0432\u0438\u0434\u0435\u043e \u0438 \u043b\u0438\u0447\u043d\u043e\u0439 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438: \u044d\u0442\u043e \u0438 \u0431\u0443\u0434\u0435\u0442 \u043c\u043e\u0439 \u043e\u0442\u0432\u0435\u0442"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 28,
+  "fields": {
+    "question": 9,
+    "text": "\u041e\u0442\u0432\u0435\u0447\u0443 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u043c \u043d\u0430 \u0432\u043e\u043f\u0440\u043e\u0441, \u0432\u044b\u0441\u0442\u0440\u043e\u0438\u0432 \u0442\u0430\u043a\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c \u0434\u0438\u0430\u043b\u043e\u0433 \u0438 \u0443\u0439\u0434\u044f \u043e\u0442 \u0442\u0435\u043c\u044b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 29,
+  "fields": {
+    "question": 9,
+    "text": "\u0417\u0430\u0434\u0430\u043c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0443\u0442\u043e\u0447\u043d\u044f\u044e\u0449\u0438\u0445 \u0432\u043e\u043f\u0440\u043e\u0441\u043e\u0432: \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u043e\u0442\u0432\u0435\u0442 \u043d\u0430\u0439\u0434\u0451\u0442\u0441\u044f \u0441\u0430\u043c \u0441\u043e\u0431\u043e\u0439"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 30,
+  "fields": {
+    "question": 9,
+    "text": "\u0420\u0430\u0441\u043f\u0438\u0448\u0443 \u0432\u043e\u043f\u0440\u043e\u0441, \u0431\u044b\u0442\u044c \u043c\u043e\u0436\u0435\u0442, \u0434\u0430\u0436\u0435 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0443 \u0441\u0445\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438: \u0442\u0430\u043a \u043b\u0435\u0433\u0447\u0435 \u0440\u0430\u0437\u043e\u0431\u0440\u0430\u0442\u044c\u0441\u044f"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 31,
+  "fields": {
+    "question": 10,
+    "text": "\u0412\u0440\u044f\u0434 \u043b\u0438 \u0441\u043c\u043e\u0433\u0443 \u0441\u0438\u043b\u044c\u043d\u043e \u043e\u0442\u0432\u043b\u0435\u0447\u044c\u0441\u044f, \u043d\u043e \u0440\u0430\u0441\u043f\u0438\u0448\u0443 \u0435\u043c\u0443 \u043f\u0440\u0438\u043c\u0435\u0440\u043d\u044b\u0439 \u043f\u043b\u0430\u043d \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 32,
+  "fields": {
+    "question": 10,
+    "text": "\u041a\u043e\u043d\u0435\u0447\u043d\u043e, \u0445\u043e\u0440\u043e\u0448\u0438\u0435 \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f \u0441 \u043a\u043e\u043b\u043b\u0435\u0433\u0430\u043c\u0438 \u043e\u0447\u0435\u043d\u044c \u0432\u0430\u0436\u043d\u044b \u0432 \u0440\u0430\u0431\u043e\u0442\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 33,
+  "fields": {
+    "question": 10,
+    "text": "\u041e\u0442\u043a\u043b\u0438\u043a\u043d\u0443\u0441\u044c: \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0441\u043c\u043e\u0433\u0443 \u043f\u043e\u0447\u0435\u0440\u043f\u043d\u0443\u0442\u044c \u0445\u043e\u0440\u043e\u0448\u0438\u0435 \u0438\u0434\u0435\u0438 \u0434\u043b\u044f \u0441\u0432\u043e\u0435\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 34,
+  "fields": {
+    "question": 10,
+    "text": "\u0414\u0430, \u043d\u043e \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438, \u0447\u0442\u043e \u043e\u043d \u0442\u0430\u043a\u0436\u0435 \u043f\u043e\u043c\u043e\u0436\u0435\u0442 \u043c\u043d\u0435 \u0441 \u043c\u043e\u0438\u043c \u0442\u0430\u0441\u043a\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 35,
+  "fields": {
+    "question": 11,
+    "text": "\u041f\u043e\u0434\u0435\u043b\u044e\u0441\u044c \u0441\u0432\u043e\u0438\u043c\u0438 \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f\u043c\u0438, \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0443 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b \u043f\u043e \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u044b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 36,
+  "fields": {
+    "question": 11,
+    "text": "\u0421\u043f\u0440\u043e\u0448\u0443 \u0443 \u043a\u043e\u043b\u043b\u0435\u0433, \u043a\u0430\u043a \u0431\u044b \u043e\u043d\u0438 \u043e\u0446\u0435\u043d\u0438\u043b\u0438 \u043c\u043e\u044e \u0440\u0430\u0431\u043e\u0442\u0443, \u0438 \u043f\u043e\u0434\u0435\u043b\u044e\u0441\u044c \u0441\u043e\u0431\u0440\u0430\u043d\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0435\u0439 \u0441 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 37,
+  "fields": {
+    "question": 11,
+    "text": "\u041d\u0430\u043f\u0438\u0448\u0443 \u0434\u043e\u043a\u043b\u0430\u0434 \u043e \u043f\u0440\u043e\u0434\u0435\u043b\u0430\u043d\u043d\u043e\u0439 \u0437\u0430 \u043e\u0442\u0447\u0451\u0442\u043d\u044b\u0439 \u043f\u0435\u0440\u0438\u043e\u0434 \u0440\u0430\u0431\u043e\u0442\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 38,
+  "fields": {
+    "question": 13,
+    "text": "\u0425\u0430\u043b\u043a\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 39,
+  "fields": {
+    "question": 13,
+    "text": "\u0416\u0435\u043b\u0435\u0437\u043d\u044b\u043c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 40,
+  "fields": {
+    "question": 13,
+    "text": "\u0411\u044d\u0442\u043c\u0435\u043d\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 41,
+  "fields": {
+    "question": 13,
+    "text": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043c-\u043f\u0430\u0443\u043a\u043e\u043c"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 42,
+  "fields": {
+    "question": 14,
+    "text": "\u041d\u0438\u0437\u043a\u0430\u044f \u0446\u0435\u043d\u0430"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 43,
+  "fields": {
+    "question": 14,
+    "text": "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 44,
+  "fields": {
+    "question": 14,
+    "text": "\u0413\u0430\u0440\u0430\u043d\u0442\u0438\u044f"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 45,
+  "fields": {
+    "question": 14,
+    "text": "\u0425\u043e\u0440\u043e\u0448\u0438\u0435 \u043e\u0442\u0437\u044b\u0432\u044b"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 46,
+  "fields": {
+    "question": 15,
+    "text": "\u042d\u0441\u043f\u0435\u0440\u0430\u043d\u0442\u043e"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 47,
+  "fields": {
+    "question": 15,
+    "text": "\u041f\u0430\u0440\u0441\u0435\u043b\u0442\u0430\u043d\u0433"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 48,
+  "fields": {
+    "question": 15,
+    "text": "1337"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 49,
+  "fields": {
+    "question": 16,
+    "text": "\u041e\u043d\u043b\u0430\u0439\u043d"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 50,
+  "fields": {
+    "question": 16,
+    "text": "\u041e\u0444\u043b\u0430\u0439\u043d"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 51,
+  "fields": {
+    "question": 16,
+    "text": "\u0411/\u0423 \u0441 \u0440\u0443\u043a \u0438\u043b\u0438 \u0432 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u043e\u043d\u043d\u043e\u043c \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 52,
+  "fields": {
+    "question": 17,
+    "text": "\u0412\u0435\u043d\u0438\u043a"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 53,
+  "fields": {
+    "question": 17,
+    "text": "\u0428\u0432\u0430\u0431\u0440\u0443"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 54,
+  "fields": {
+    "question": 17,
+    "text": "\u0420\u043e\u0431\u043e\u0442-\u043f\u044b\u043b\u0435\u0441\u043e\u0441"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 55,
+  "fields": {
+    "question": 18,
+    "text": "\u0414\u043e\u043c\u0430"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 56,
+  "fields": {
+    "question": 18,
+    "text": "\u041d\u0430 \u043f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u0435 \u043c\u043e\u0440\u044f"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 57,
+  "fields": {
+    "question": 18,
+    "text": "\u0412 \u043e\u043f\u0435\u043d\u0441\u043f\u0435\u0439\u0441\u0435"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 58,
+  "fields": {
+    "question": 19,
+    "text": "\u043f\u043e\u0434\u0440\u043e\u0431\u043d\u044b\u0439, \u0441 \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u0434\u0435\u0442\u0430\u043b\u044f\u043c\u0438, \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f\u043c\u0438 \u0438 \u0442\u043e\u0447\u043a\u0430\u043c\u0438 \u0441 \u0437\u0430\u043f\u044f\u0442\u043e\u0439"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 59,
+  "fields": {
+    "question": 19,
+    "text": "\u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u0441\u0436\u0430\u0442\u044b\u0439 \u0438 \u0441\u0443\u0445\u043e\u0439 \u2014 \u043a\u043e\u043c\u0443 \u043d\u0430\u0434\u043e, \u0441\u0430\u043c \u0440\u0430\u0437\u0431\u0435\u0440\u0451\u0442\u0441\u044f"
+  }
+},
+{
+  "model": "polls.choice",
+  "pk": 60,
+  "fields": {
+    "question": 19,
+    "text": "\u0437\u0430\u0447\u0435\u043c \u0447\u0442\u043e-\u0442\u043e \u043f\u0438\u0441\u0430\u0442\u044c? \u041d\u0435\u0442 \u043e\u0442\u0437\u044b\u0432\u0430 \u2014 \u0437\u043d\u0430\u0447\u0438\u0442, \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442. \u0410 \u043a\u0430\u043a \u2014 \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e \u0432 \u0438\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add poll",
+    "content_type": 7,
+    "codename": "add_poll"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change poll",
+    "content_type": 7,
+    "codename": "change_poll"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete poll",
+    "content_type": 7,
+    "codename": "delete_poll"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view poll",
+    "content_type": 7,
+    "codename": "view_poll"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add question",
+    "content_type": 8,
+    "codename": "add_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change question",
+    "content_type": 8,
+    "codename": "change_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete question",
+    "content_type": 8,
+    "codename": "delete_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view question",
+    "content_type": 8,
+    "codename": "view_question"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add choice",
+    "content_type": 9,
+    "codename": "add_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change choice",
+    "content_type": 9,
+    "codename": "change_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete choice",
+    "content_type": 9,
+    "codename": "delete_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view choice",
+    "content_type": 9,
+    "codename": "view_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add user choice",
+    "content_type": 10,
+    "codename": "add_userchoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change user choice",
+    "content_type": 10,
+    "codename": "change_userchoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete user choice",
+    "content_type": 10,
+    "codename": "delete_userchoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view user choice",
+    "content_type": 10,
+    "codename": "view_userchoice"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$09D31ELfTLda$S8U+taUobgmDr5jEC4n1jtjbqSsAg59nPHVBxBMizkg=",
+    "last_login": "2020-11-15T10:25:44.108Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-11-15T08:54:31.260Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.354Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "UserChoice object (19)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.363Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "UserChoice object (18)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.372Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "UserChoice object (17)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.380Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "UserChoice object (16)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.389Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "UserChoice object (15)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.398Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "UserChoice object (14)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.406Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "UserChoice object (13)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.415Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "UserChoice object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.424Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "UserChoice object (11)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "UserChoice object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.442Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "UserChoice object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.450Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "UserChoice object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.459Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "UserChoice object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.468Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "UserChoice object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.477Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "UserChoice object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.485Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "UserChoice object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.494Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "UserChoice object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.503Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "UserChoice object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-11-15T13:56:42.511Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "UserChoice object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-11-15T14:06:03.969Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "UserChoice object (20)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-11-15T14:16:33.153Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "UserChoice object (21)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"choice\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-11-15T14:16:39.862Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "UserChoice object (21)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"choice\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-11-15T14:16:43.462Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "UserChoice object (21)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"choice\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-11-15T14:16:47.747Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "UserChoice object (21)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"choice\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-11-15T14:28:46.739Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "\u041a\u0435\u043c \u0431\u044b \u0432\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u043b\u0438, \u0435\u0441\u043b\u0438 \u0431 \u043d\u0435 \u043f\u043e\u0448\u043b\u0438 \u0432 IT?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-11-15T14:30:00.189Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "\u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044c\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u0432 \u0441\u0432\u043e\u0435\u0439 \u043a\u043e\u043c\u043d\u0430\u0442\u0435, \u043f\u0438\u0448\u0435\u0442\u0435 \u043a\u043e\u0434, \u0430 \u043f\u0435\u0440\u0435\u0434 \u0432\u0430\u043c\u0438 \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043f\u043e\u043b\u043a\u0430. \u041a\u0430\u043a\u0430\u044f \u043a\u043d\u0438\u0433\u0430 \u0442\u0430\u043c \u0442\u043e\u0447\u043d\u043e \u0435\u0441\u0442\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-11-15T14:30:38.539Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "\u00ab\u0418\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f\u00bb, \u0414. \u041a\u043d\u0443\u0442",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-11-15T14:36:19.390Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "\u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044c\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u0432 \u0441\u0432\u043e\u0435\u0439 \u043a\u043e\u043c\u043d\u0430\u0442\u0435, \u043f\u0438\u0448\u0435\u0442\u0435 \u043a\u043e\u0434, \u0430 \u043f\u0435\u0440\u0435\u0434 \u0432\u0430\u043c\u0438 \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043f\u043e\u043b\u043a\u0430. \u041a\u0430\u043a\u0430\u044f \u043a\u043d\u0438\u0433\u0430 \u0442\u0430\u043c \u0442\u043e\u0447\u043d\u043e \u0435\u0441\u0442\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0418\\u0441\\u043a\\u0443\\u0441\\u0441\\u0442\\u0432\\u043e \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\\u00bb, \\u0414. \\u041a\\u043d\\u0443\\u0442\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u00ab\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0434\\u043b\\u044f \\u0433\\u0443\\u043c\\u0430\\u043d\\u0438\\u0442\\u0430\\u0440\\u0438\\u0435\\u0432\\u00bb, \\u042e. \\u0414\\u0435\\u043d\\u0438\\u0441\\u043e\\u0432\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u00ab\\u041f\\u044f\\u0442\\u044c \\u043f\\u043e\\u0440\\u043e\\u043a\\u043e\\u0432 \\u043a\\u043e\\u043c\\u0430\\u043d\\u0434\\u044b\\u00bb, \\u041f. \\u041b\\u0435\\u043d\\u0441\\u0438\\u043e\\u043d\\u0438\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u00abGoogle: \\u044d\\u0444\\u0444\\u0435\\u043a\\u0442\\u0438\\u0432\\u043d\\u044b\\u0439 \\u043f\\u043e\\u0438\\u0441\\u043a \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u0438 \\u0432 \\u0418\\u043d\\u0442\\u0435\\u0440\\u043d\\u0435\\u0442. \\u0413\\u0443\\u0433\\u043b \\u043f\\u043e\\u0438\\u0441\\u043a\\u00bb, \\u0412. \\u0413\\u0443\\u0441\\u0435\\u0432\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-11-15T14:36:39.887Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "\u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u044c\u0442\u0435, \u0447\u0442\u043e \u0432\u044b \u0432 \u0441\u0432\u043e\u0435\u0439 \u043a\u043e\u043c\u043d\u0430\u0442\u0435, \u043f\u0438\u0448\u0435\u0442\u0435 \u043a\u043e\u0434, \u0430 \u043f\u0435\u0440\u0435\u0434 \u0432\u0430\u043c\u0438 \u043a\u043d\u0438\u0436\u043d\u0430\u044f \u043f\u043e\u043b\u043a\u0430. \u041a\u0430\u043a\u0430\u044f \u043a\u043d\u0438\u0433\u0430 \u0442\u0430\u043c \u0442\u043e\u0447\u043d\u043e \u0435\u0441\u0442\u044c?",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-11-15T14:37:47.518Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "\u0412\u0430\u043c \u043f\u043e\u0440\u0443\u0447\u0438\u043b\u0438 \u0441\u043b\u043e\u0436\u043d\u044b\u0439 \u0442\u0430\u0441\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u044b \u043d\u0438\u043a\u0430\u043a \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0438\u0442\u044c. \u0427\u0442\u043e \u0441\u0434\u0435\u043b\u0430\u0435\u0442\u0435 \u0432 \u043f\u0435\u0440\u0432\u0443\u044e \u043e\u0447\u0435\u0440\u0435\u0434\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u0431\\u0435\\u0433\\u0443 \\u043d\\u0430 StackOverflow \\u0437\\u0430 \\u0433\\u043e\\u0442\\u043e\\u0432\\u044b\\u043c\\u0438 \\u043e\\u0442\\u0432\\u0435\\u0442\\u0430\\u043c\\u0438\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u0431\\u0435\\u0433\\u0443 \\u043d\\u0430 StackOverflow \\u0437\\u0430\\u0434\\u0430\\u0432\\u0430\\u0442\\u044c \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u044b\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041e\\u043f\\u0440\\u043e\\u0448\\u0443 \\u043a\\u043e\\u043b\\u043b\\u0435\\u0433 \\u0438 \\u0432\\u043e\\u043e\\u0440\\u0443\\u0436\\u0443\\u0441\\u044c \\u0438\\u0445 \\u0441\\u043e\\u0432\\u0435\\u0442\\u0430\\u043c\\u0438\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0414\\u043e\\u0431\\u0430\\u0432\\u043b\\u044e \\u043a\\u043e\\u043d\\u0442\\u0440\\u043e\\u043b\\u044c\\u043d\\u044b\\u0435 \\u0442\\u043e\\u0447\\u043a\\u0438, \\u043d\\u0430\\u0447\\u043d\\u0443 \\u0434\\u0435\\u0431\\u0430\\u0436\\u0438\\u0442\\u044c\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-11-15T14:39:00.296Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "\u0412\u044b \u043e\u0447\u0435\u043d\u044c \u0441\u043f\u0435\u0448\u0438\u043b\u0438, \u0438 \u043d\u0430 \u0432\u044b\u0445\u043e\u0434\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0441\u044f \u0441\u043f\u0430\u0433\u0435\u0442\u0442\u0438-\u043a\u043e\u0434. \u0427\u0442\u043e \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u043c\u0438\u0442\u0435?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u043a\\u043e\\u043f\\u0430\\u044e\\u0441\\u044c \\u0432 \\u0441\\u0442\\u0430\\u0440\\u044b\\u0445 \\u043f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0430\\u0445, \\u0432\\u0435\\u0434\\u044c \\u0447\\u0442\\u043e-\\u0442\\u043e \\u043f\\u043e\\u0434\\u043e\\u0431\\u043d\\u043e\\u0435 \\u044f \\u0443\\u0436\\u0435 \\u0442\\u043e\\u0447\\u043d\\u043e \\u043f\\u0438\\u0441\\u0430\\u043b\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041d\\u0430\\u0439\\u0434\\u0443 best practices \\u0434\\u043b\\u044f \\u0447\\u0438\\u0441\\u0442\\u043e\\u0433\\u043e \\u043a\\u043e\\u0434\\u0430 \\u0438 \\u0431\\u0443\\u0434\\u0443 \\u0438\\u043c \\u0441\\u043b\\u0435\\u0434\\u043e\\u0432\\u0430\\u0442\\u044c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u0438\\u0449\\u0443 \\u0430\\u043d\\u0430\\u043b\\u043e\\u0433\\u0438\\u0447\\u043d\\u044b\\u0435 \\u0441\\u0442\\u043e\\u0440\\u043e\\u043d\\u043d\\u0438\\u0435 \\u043f\\u0440\\u043e\\u0435\\u043a\\u0442\\u044b, \\u043f\\u0440\\u0438\\u043c\\u0435\\u043d\\u044e \\u043b\\u0443\\u0447\\u0448\\u0438\\u0435 \\u043d\\u0430\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0438 \\u0432 \\u0441\\u0432\\u043e\\u0451\\u043c \\u043a\\u043e\\u0434\\u0435\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041c\\u043d\\u0435 \\u0441\\u043b\\u043e\\u0436\\u043d\\u043e \\u0438\\u0437\\u043c\\u0435\\u043d\\u044f\\u0442\\u044c \\u0441\\u0443\\u0449\\u0435\\u0441\\u0442\\u0432\\u0443\\u044e\\u0449\\u0435\\u0435, \\u043f\\u043e\\u044d\\u0442\\u043e\\u043c\\u0443 \\u043f\\u0435\\u0440\\u0435\\u043f\\u0438\\u0448\\u0443 \\u0441 \\u043d\\u0443\\u043b\\u044f\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-11-15T14:40:05.231Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "\u0412 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0438 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0433\u043e \u043f\u0440\u043e\u0435\u043a\u0442\u0430 \u0431\u0430\u0440\u0434\u0430\u043a \u0438 \u043c\u0430\u043b\u043e \u043a\u043e\u043c\u043c\u0438\u0442\u043e\u0432. \u0422\u0438\u043c\u043b\u0438\u0434 \u0441\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u0442, \u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435\u0441\u044c \u043b\u0438 \u0432\u044b \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044f \u0432\u0435\u0440\u0441\u0438\u0439. \u0427\u0442\u043e \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u0435?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u0447\\u0442\\u0438 \\u043d\\u0435 \\u043f\\u043e\\u043b\\u044c\\u0437\\u0443\\u044e\\u0441\\u044c: \\u0432\\u0441\\u0435 \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438 \\u0445\\u0440\\u0430\\u043d\\u044e \\u043d\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0447\\u0435\\u043c \\u0441\\u0442\\u043e\\u043b\\u0435\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041a\\u043e\\u043d\\u0435\\u0447\\u043d\\u043e, \\u043a\\u0443\\u0434\\u0430 \\u0436 \\u0431\\u0435\\u0437 \\u043d\\u0435\\u0451?\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0418\\u043d\\u043e\\u0433\\u0434\\u0430: \\u0447\\u0442\\u043e-\\u0442\\u043e \\u043f\\u0443\\u0448\\u0443, \\u0430 \\u0447\\u0442\\u043e-\\u0442\\u043e \\u043c\\u043e\\u0433\\u0443 \\u0438 \\u0432 \\u0431\\u043b\\u043e\\u043a\\u043d\\u043e\\u0442\\u0435 \\u0441\\u043e\\u0445\\u0440\\u0430\\u043d\\u0438\\u0442\\u044c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0422\\u043e\\u043b\\u044c\\u043a\\u043e \\u043a\\u043e\\u0433\\u0434\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u0430\\u044e \\u043d\\u0430\\u0434 \\u0433\\u0440\\u0443\\u043f\\u043f\\u043e\\u0432\\u044b\\u043c \\u043f\\u0440\\u043e\\u0435\\u043a\\u0442\\u043e\\u043c: \\u043d\\u0435 \\u043f\\u043e\\u0434\\u0432\\u043e\\u0434\\u0438\\u0442\\u044c \\u0436\\u0435 \\u043a\\u043e\\u043c\\u0430\\u043d\\u0434\\u0443\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-11-15T14:41:13.203Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "\u041d\u0430 \u043d\u043e\u0441\u0443 \u0432\u0430\u0436\u043d\u0430\u044f \u0441\u0435\u0440\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f, \u043e\u0442 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u0432\u0430\u0448\u0430 \u043a\u0430\u0440\u044c\u0435\u0440\u0430. \u041a\u0430\u043a \u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0435\u0441\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041a\\u043e\\u043d\\u0441\\u043f\\u0435\\u043a\\u0442\\u0438\\u0440\\u0443\\u044e \\u0442\\u0435\\u0440\\u043c\\u0438\\u043d\\u043e\\u043b\\u043e\\u0433\\u0438\\u044e, \\u0432\\u044b\\u043f\\u0438\\u0441\\u044b\\u0432\\u0430\\u044e \\u0432\\u0441\\u0451 \\u0441\\u0430\\u043c\\u043e\\u0435 \\u0441\\u043b\\u043e\\u0436\\u043d\\u043e\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0431\\u0438\\u0440\\u0430\\u044e\\u0441\\u044c \\u0441 \\u044d\\u0442\\u0438\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0417\\u0430\\u043a\\u0430\\u043f\\u044b\\u0432\\u0430\\u044e\\u0441\\u044c \\u0432 \\u043a\\u043d\\u0438\\u0433\\u0438 \\u0438 \\u043f\\u0440\\u043e\\u0447\\u0438\\u0435 \\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u044b\\u0435 \\u043c\\u0430\\u0442\\u0435\\u0440\\u0438\\u0430\\u043b\\u044b\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u044b\\u0442\\u0430\\u044e\\u0441\\u044c \\u043e\\u0431\\u044a\\u044f\\u0441\\u043d\\u0438\\u0442\\u044c \\u0442\\u043e, \\u0447\\u0442\\u043e \\u0437\\u043d\\u0430\\u044e, \\u0447\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a\\u0443, \\u0434\\u0430\\u043b\\u0451\\u043a\\u043e\\u043c\\u0443 \\u043e\\u0442 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f: \\u0435\\u0441\\u043b\\u0438 \\u043c\\u043e\\u0433\\u0443 \\u0434\\u043e\\u0441\\u0442\\u0443\\u043f\\u043d\\u043e \\u043e\\u0431\\u044a\\u044f\\u0441\\u043d\\u0438\\u0442\\u044c, \\u0437\\u043d\\u0430\\u0447\\u0438\\u0442, \\u043f\\u043e\\u043d\\u0438\\u043c\\u0430\\u044e \\u0441\\u0430\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0417\\u0430\\u0440\\u0430\\u043d\\u0435\\u0435 \\u0438\\u0449\\u0443 \\u0433\\u043e\\u0442\\u043e\\u0432\\u044b\\u0435 \\u043e\\u0442\\u0432\\u0435\\u0442\\u044b \\u043d\\u0430 \\u0432\\u043e\\u0437\\u043c\\u043e\\u0436\\u043d\\u044b\\u0435 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u044b, \\u0447\\u0442\\u043e\\u0431\\u044b \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u044c \\u044d\\u0442\\u0443 \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u044e \\u0443\\u0436\\u0435 \\u0432 \\u0441\\u0432\\u043e\\u0438\\u0445 \\u043e\\u0442\\u0432\\u0435\\u0442\\u0430\\u0445\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-11-15T14:42:37.543Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "\u041d\u0430 \u0441\u043e\u0431\u0435\u0441\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0438 \u0432\u0430\u043c \u0437\u0430\u0434\u0430\u043b\u0438 \u0432\u043e\u043f\u0440\u043e\u0441, \u043e\u0442\u0432\u0435\u0442\u0430 \u043d\u0430 \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u044b \u043d\u0435 \u0437\u043d\u0430\u0435\u0442\u0435. \u0427\u0442\u043e \u0431\u0443\u0434\u0435\u0442\u0435 \u0434\u0435\u043b\u0430\u0442\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0412\\u0441\\u043f\\u043e\\u043c\\u043d\\u044e \\u0432\\u0441\\u0451 \\u043e\\u043a\\u043e\\u043b\\u043e \\u0442\\u0435\\u043c\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u043e\\u0435 \\u0438\\u0437 \\u043a\\u043d\\u0438\\u0433, \\u0432\\u0438\\u0434\\u0435\\u043e \\u0438 \\u043b\\u0438\\u0447\\u043d\\u043e\\u0439 \\u043f\\u0440\\u0430\\u043a\\u0442\\u0438\\u043a\\u0438: \\u044d\\u0442\\u043e \\u0438 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u043c\\u043e\\u0439 \\u043e\\u0442\\u0432\\u0435\\u0442\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041e\\u0442\\u0432\\u0435\\u0447\\u0443 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u043e\\u043c \\u043d\\u0430 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441, \\u0432\\u044b\\u0441\\u0442\\u0440\\u043e\\u0438\\u0432 \\u0442\\u0430\\u043a\\u0438\\u043c \\u043e\\u0431\\u0440\\u0430\\u0437\\u043e\\u043c \\u0434\\u0438\\u0430\\u043b\\u043e\\u0433 \\u0438 \\u0443\\u0439\\u0434\\u044f \\u043e\\u0442 \\u0442\\u0435\\u043c\\u044b\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0417\\u0430\\u0434\\u0430\\u043c \\u043d\\u0435\\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u043e \\u0443\\u0442\\u043e\\u0447\\u043d\\u044f\\u044e\\u0449\\u0438\\u0445 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441\\u043e\\u0432: \\u0432\\u043e\\u0437\\u043c\\u043e\\u0436\\u043d\\u043e, \\u043e\\u0442\\u0432\\u0435\\u0442 \\u043d\\u0430\\u0439\\u0434\\u0451\\u0442\\u0441\\u044f \\u0441\\u0430\\u043c \\u0441\\u043e\\u0431\\u043e\\u0439\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0420\\u0430\\u0441\\u043f\\u0438\\u0448\\u0443 \\u0432\\u043e\\u043f\\u0440\\u043e\\u0441, \\u0431\\u044b\\u0442\\u044c \\u043c\\u043e\\u0436\\u0435\\u0442, \\u0434\\u0430\\u0436\\u0435 \\u0438\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0443 \\u0441\\u0445\\u0435\\u043c\\u0430\\u0442\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438: \\u0442\\u0430\\u043a \\u043b\\u0435\\u0433\\u0447\\u0435 \\u0440\\u0430\\u0437\\u043e\\u0431\\u0440\\u0430\\u0442\\u044c\\u0441\\u044f\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-11-15T14:43:58.247Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "\u041a\u043e\u043b\u043b\u0435\u0433\u0430 \u043f\u0440\u043e\u0441\u0438\u0442 \u043f\u043e\u043c\u043e\u0447\u044c \u0441\u043e \u0441\u043b\u043e\u0436\u043d\u044b\u043c \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u043c, \u0445\u043e\u0442\u044f \u0443 \u0432\u0430\u0441 \u0442\u043e\u0436\u0435 \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0435\u043c\u0430\u043b\u043e. \u041e\u0442\u043a\u043b\u0438\u043a\u043d\u0435\u0442\u0435\u0441\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0412\\u0440\\u044f\\u0434 \\u043b\\u0438 \\u0441\\u043c\\u043e\\u0433\\u0443 \\u0441\\u0438\\u043b\\u044c\\u043d\\u043e \\u043e\\u0442\\u0432\\u043b\\u0435\\u0447\\u044c\\u0441\\u044f, \\u043d\\u043e \\u0440\\u0430\\u0441\\u043f\\u0438\\u0448\\u0443 \\u0435\\u043c\\u0443 \\u043f\\u0440\\u0438\\u043c\\u0435\\u0440\\u043d\\u044b\\u0439 \\u043f\\u043b\\u0430\\u043d \\u0434\\u0435\\u0439\\u0441\\u0442\\u0432\\u0438\\u0439\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041a\\u043e\\u043d\\u0435\\u0447\\u043d\\u043e, \\u0445\\u043e\\u0440\\u043e\\u0448\\u0438\\u0435 \\u043e\\u0442\\u043d\\u043e\\u0448\\u0435\\u043d\\u0438\\u044f \\u0441 \\u043a\\u043e\\u043b\\u043b\\u0435\\u0433\\u0430\\u043c\\u0438 \\u043e\\u0447\\u0435\\u043d\\u044c \\u0432\\u0430\\u0436\\u043d\\u044b \\u0432 \\u0440\\u0430\\u0431\\u043e\\u0442\\u0435\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041e\\u0442\\u043a\\u043b\\u0438\\u043a\\u043d\\u0443\\u0441\\u044c: \\u0432\\u043e\\u0437\\u043c\\u043e\\u0436\\u043d\\u043e, \\u0441\\u043c\\u043e\\u0433\\u0443 \\u043f\\u043e\\u0447\\u0435\\u0440\\u043f\\u043d\\u0443\\u0442\\u044c \\u0445\\u043e\\u0440\\u043e\\u0448\\u0438\\u0435 \\u0438\\u0434\\u0435\\u0438 \\u0434\\u043b\\u044f \\u0441\\u0432\\u043e\\u0435\\u0433\\u043e \\u043f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0430\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0414\\u0430, \\u043d\\u043e \\u043f\\u0440\\u0438 \\u0443\\u0441\\u043b\\u043e\\u0432\\u0438\\u0438, \\u0447\\u0442\\u043e \\u043e\\u043d \\u0442\\u0430\\u043a\\u0436\\u0435 \\u043f\\u043e\\u043c\\u043e\\u0436\\u0435\\u0442 \\u043c\\u043d\\u0435 \\u0441 \\u043c\\u043e\\u0438\\u043c \\u0442\\u0430\\u0441\\u043a\\u043e\\u043c\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-11-15T14:44:38.323Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "\u0413\u0440\u044f\u0434\u0451\u0442 \u043f\u043b\u0430\u043d\u043e\u0432\u044b\u0439 \u043f\u0435\u0440\u0435\u0441\u043c\u043e\u0442\u0440 \u0437\u0430\u0440\u043f\u043b\u0430\u0442\u044b. \u041a\u0430\u043a \u0432\u044b \u043a \u043d\u0435\u043c\u0443 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u0435\u0441\u044c?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u043e\\u0434\\u0435\\u043b\\u044e\\u0441\\u044c \\u0441\\u0432\\u043e\\u0438\\u043c\\u0438 \\u0434\\u043e\\u0441\\u0442\\u0438\\u0436\\u0435\\u043d\\u0438\\u044f\\u043c\\u0438, \\u043f\\u0440\\u0435\\u0434\\u043b\\u043e\\u0436\\u0443 \\u0432\\u0430\\u0440\\u0438\\u0430\\u043d\\u0442\\u044b \\u043f\\u043e \\u0443\\u043b\\u0443\\u0447\\u0448\\u0435\\u043d\\u0438\\u044e \\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u0438\\u0432\\u043d\\u043e\\u0441\\u0442\\u0438 \\u043a\\u043e\\u043c\\u0430\\u043d\\u0434\\u044b\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0421\\u043f\\u0440\\u043e\\u0448\\u0443 \\u0443 \\u043a\\u043e\\u043b\\u043b\\u0435\\u0433, \\u043a\\u0430\\u043a \\u0431\\u044b \\u043e\\u043d\\u0438 \\u043e\\u0446\\u0435\\u043d\\u0438\\u043b\\u0438 \\u043c\\u043e\\u044e \\u0440\\u0430\\u0431\\u043e\\u0442\\u0443, \\u0438 \\u043f\\u043e\\u0434\\u0435\\u043b\\u044e\\u0441\\u044c \\u0441\\u043e\\u0431\\u0440\\u0430\\u043d\\u043d\\u043e\\u0439 \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u0435\\u0439 \\u0441 \\u0440\\u0443\\u043a\\u043e\\u0432\\u043e\\u0434\\u0441\\u0442\\u0432\\u043e\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041d\\u0430\\u043f\\u0438\\u0448\\u0443 \\u0434\\u043e\\u043a\\u043b\\u0430\\u0434 \\u043e \\u043f\\u0440\\u043e\\u0434\\u0435\\u043b\\u0430\\u043d\\u043d\\u043e\\u0439 \\u0437\\u0430 \\u043e\\u0442\\u0447\\u0451\\u0442\\u043d\\u044b\\u0439 \\u043f\\u0435\\u0440\\u0438\\u043e\\u0434 \\u0440\\u0430\\u0431\\u043e\\u0442\\u0435\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-11-15T14:45:14.183Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "\u0422\u0438\u043c\u043b\u0438\u0434 \u043f\u0440\u043e\u0441\u0438\u0442 \u0432\u0430\u0441 \u043f\u043e\u043c\u043e\u0447\u044c \u0441 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u0430\u0446\u0438\u0435\u0439 \u0442\u0438\u043c\u0431\u0438\u043b\u0434\u0438\u043d\u0433\u0430. \u0427\u0442\u043e \u043f\u043e\u0441\u043e\u0432\u0435\u0442\u0443\u0435\u0442\u0435 \u0432\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0432 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0443?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-11-15T14:51:39.401Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u041d\u043e\u0432\u044b\u0439 \u0413\u043e\u0434",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2020-11-15T14:51:39.410Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u0412\u0435\u0447\u0435\u0440\u0438\u043d\u043a\u0430 \u0443 \u0412\u0430\u0441\u0438",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2020-11-15T14:52:45.704Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "\u041a\u0430\u043a\u043e\u0439 \u044f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0432\u0430\u0448\u0435\u043c\u0443 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u043c\u0443 \u043c\u0438\u0440\u0443? \u2014 \u0442\u0435\u0441\u0442 \u043e\u0442 Tproger \u0438 Ozon",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2020-11-15T14:53:19.398Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "\u0412\u044b \u0431\u044b \u0445\u043e\u0442\u0435\u043b\u0438, \u0447\u0442\u043e\u0431\u044b \u043a\u0443\u0440\u044c\u0435\u0440, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0432\u0430\u0448 \u0437\u0430\u043a\u0430\u0437 \u0441 \u043e\u043d\u043b\u0430\u0439\u043d-\u043f\u043b\u043e\u0449\u0430\u0434\u043a\u0438, \u0431\u044b\u043b:",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0425\\u0430\\u043b\\u043a\\u043e\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0416\\u0435\\u043b\\u0435\\u0437\\u043d\\u044b\\u043c \\u0447\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a\\u043e\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0411\\u044d\\u0442\\u043c\\u0435\\u043d\\u043e\\u043c\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0427\\u0435\\u043b\\u043e\\u0432\\u0435\\u043a\\u043e\\u043c-\\u043f\\u0430\\u0443\\u043a\\u043e\\u043c\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2020-11-15T14:53:58.101Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "\u0412\u044b \u043f\u043e\u043a\u0443\u043f\u0430\u0435\u0442\u0435 \u0438\u0433\u0440\u043e\u0432\u043e\u0435 \u043a\u0440\u0435\u0441\u043b\u043e \u043d\u0430 \u043c\u0430\u0440\u043a\u0435\u0442\u043f\u043b\u0435\u0439\u0441\u0435, \u043d\u0430 \u0432\u044b\u0431\u043e\u0440 \u0435\u0441\u0442\u044c 4 \u043f\u0440\u043e\u0434\u0430\u0432\u0446\u0430: \u0443 \u043e\u0434\u043d\u043e\u0433\u043e \u043d\u0438\u0437\u043a\u0430\u044f \u0446\u0435\u043d\u0430, \u0432\u0442\u043e\u0440\u043e\u0439 \u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442 \u0434\u0435\u043d\u044c \u0432 \u0434\u0435\u043d\u044c, \u0442\u0440\u0435\u0442\u0438\u0439 \u0434\u0430\u0451\u0442 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u044e \u0434\u0435\u0441\u044f\u0442\u044c \u043b\u0435\u0442, \u0430 \u0443 \u0447\u0435\u0442\u0432\u0451\u0440\u0442\u043e\u0433\u043e \u043e\u0442\u043b\u0438\u0447\u043d\u044b\u0435 \u043e\u0442\u0437\u044b\u0432\u044b. \u041a\u043e\u0433\u043e \u0432\u044b\u0431\u0435\u0440\u0435\u0442\u0435",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041d\\u0438\\u0437\\u043a\\u0430\\u044f \\u0446\\u0435\\u043d\\u0430\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0421\\u043a\\u043e\\u0440\\u043e\\u0441\\u0442\\u044c \\u0434\\u043e\\u0441\\u0442\\u0430\\u0432\\u043a\\u0438\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0413\\u0430\\u0440\\u0430\\u043d\\u0442\\u0438\\u044f\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0425\\u043e\\u0440\\u043e\\u0448\\u0438\\u0435 \\u043e\\u0442\\u0437\\u044b\\u0432\\u044b\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2020-11-15T14:54:37.407Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "\u0412\u044b \u0443\u0441\u0442\u0440\u043e\u0438\u043b\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0438 \u0442\u0430\u043c \u043d\u0430\u0441\u0442\u043e\u043b\u044c\u043a\u043e \u0441\u0443\u0440\u043e\u0432\u044b\u0439 NDA, \u0447\u0442\u043e \u0432\u0441\u0435 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u0438 \u043f\u0435\u0440\u0435\u043f\u0438\u0441\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u043d\u0430 \u043e\u0434\u043d\u043e\u043c \u0438\u0437 \u0432\u044b\u0434\u0443\u043c\u0430\u043d\u043d\u044b\u0445 \u044f\u0437\u044b\u043a\u043e\u0432. \u041a\u0430\u043a\u043e\u0439 \u044f\u0437\u044b\u043a \u0432\u0430\u043c \u0431\u043b\u0438\u0436\u0435?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u042d\\u0441\\u043f\\u0435\\u0440\\u0430\\u043d\\u0442\\u043e\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041f\\u0430\\u0440\\u0441\\u0435\\u043b\\u0442\\u0430\\u043d\\u0433\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"1337\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2020-11-15T14:55:24.440Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "\u0413\u0434\u0435 \u0432\u0430\u043c \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u0435\u0435 \u0432\u0441\u0435\u0433\u043e \u043f\u043e\u043a\u0443\u043f\u0430\u0442\u044c \u043e\u0434\u0435\u0436\u0434\u0443 \u0438 \u0442\u0435\u0445\u043d\u0438\u043a\u0443?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041e\\u043d\\u043b\\u0430\\u0439\\u043d\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041e\\u0444\\u043b\\u0430\\u0439\\u043d\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0411/\\u0423 \\u0441 \\u0440\\u0443\\u043a \\u0438\\u043b\\u0438 \\u0432 \\u043a\\u043e\\u043c\\u0438\\u0441\\u0441\\u0438\\u043e\\u043d\\u043d\\u043e\\u043c \\u043c\\u0430\\u0433\\u0430\\u0437\\u0438\\u043d\\u0435\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2020-11-15T14:55:52.820Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "\u0412\u044b \u043f\u0435\u0440\u0435\u0435\u0445\u0430\u043b\u0438 \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0443 \u0438 \u0442\u0430\u043c \u043d\u0435\u0447\u0435\u043c \u0443\u0431\u0438\u0440\u0430\u0442\u044c \u043f\u043e\u043b. \u0427\u0442\u043e \u043a\u0443\u043f\u0438\u0442\u0435?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0412\\u0435\\u043d\\u0438\\u043a\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0428\\u0432\\u0430\\u0431\\u0440\\u0443\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0420\\u043e\\u0431\\u043e\\u0442-\\u043f\\u044b\\u043b\\u0435\\u0441\\u043e\\u0441\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-11-15T14:56:19.591Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "\u0412\u044b \u0443\u0441\u0442\u0440\u043e\u0438\u043b\u0438\u0441\u044c \u0432 \u043d\u043e\u0432\u0443\u044e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e, \u0438 \u0440\u0430\u0431\u043e\u0442\u043e\u0434\u0430\u0442\u0435\u043b\u044c \u0433\u043e\u0442\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u0432\u0430\u043c \u0440\u0430\u0431\u043e\u0447\u0435\u0435 \u043c\u0435\u0441\u0442\u043e \u0432\u0430\u0448\u0435\u0439 \u043c\u0435\u0447\u0442\u044b. \u0412\u044b \u0431\u0443\u0434\u0435\u0442\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c:",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0414\\u043e\\u043c\\u0430\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u041d\\u0430 \\u043f\\u043e\\u0431\\u0435\\u0440\\u0435\\u0436\\u044c\\u0435 \\u043c\\u043e\\u0440\\u044f\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0412 \\u043e\\u043f\\u0435\\u043d\\u0441\\u043f\\u0435\\u0439\\u0441\\u0435\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-11-15T14:57:15.910Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "\u0412\u044b \u043a\u0443\u043f\u0438\u043b\u0438 \u0447\u0442\u043e-\u0442\u043e \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0435 \u0438 \u0445\u043e\u0442\u0438\u0442\u0435 \u043d\u0430\u043f\u0438\u0441\u0430\u0442\u044c \u043e\u0442\u0437\u044b\u0432. \u0412\u0430\u0448 \u043e\u0442\u0437\u044b\u0432:",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u043f\\u043e\\u0434\\u0440\\u043e\\u0431\\u043d\\u044b\\u0439, \\u0441 \\u0442\\u0435\\u0445\\u043d\\u0438\\u0447\\u0435\\u0441\\u043a\\u0438\\u043c\\u0438 \\u0434\\u0435\\u0442\\u0430\\u043b\\u044f\\u043c\\u0438, \\u0444\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\\u043c\\u0438 \\u0438 \\u0442\\u043e\\u0447\\u043a\\u0430\\u043c\\u0438 \\u0441 \\u0437\\u0430\\u043f\\u044f\\u0442\\u043e\\u0439\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u043c\\u0430\\u043a\\u0441\\u0438\\u043c\\u0430\\u043b\\u044c\\u043d\\u043e \\u0441\\u0436\\u0430\\u0442\\u044b\\u0439 \\u0438 \\u0441\\u0443\\u0445\\u043e\\u0439 \\u2014 \\u043a\\u043e\\u043c\\u0443 \\u043d\\u0430\\u0434\\u043e, \\u0441\\u0430\\u043c \\u0440\\u0430\\u0437\\u0431\\u0435\\u0440\\u0451\\u0442\\u0441\\u044f\"}}, {\"added\": {\"name\": \"choice\", \"object\": \"\\u0437\\u0430\\u0447\\u0435\\u043c \\u0447\\u0442\\u043e-\\u0442\\u043e \\u043f\\u0438\\u0441\\u0430\\u0442\\u044c? \\u041d\\u0435\\u0442 \\u043e\\u0442\\u0437\\u044b\\u0432\\u0430 \\u2014 \\u0437\\u043d\\u0430\\u0447\\u0438\\u0442, \\u0440\\u0430\\u0431\\u043e\\u0442\\u0430\\u0435\\u0442. \\u0410 \\u043a\\u0430\\u043a \\u2014 \\u043d\\u0430\\u043f\\u0438\\u0441\\u0430\\u043d\\u043e \\u0432 \\u0438\\u043d\\u0441\\u0442\\u0440\\u0443\\u043a\\u0446\\u0438\\u0438\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-11-15T18:27:57.911Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "UserChoice object (24)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-11-15T18:27:57.920Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "UserChoice object (23)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]

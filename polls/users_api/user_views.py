@@ -1,12 +1,12 @@
 from django.utils import timezone
 from rest_framework import viewsets
 from rest_framework.response import Response
+from rest_framework import status
 
 from polls.admin_api.serializers import PollSerializer
 from polls.models import Poll, UserChoice
 from .permissions import IsAdminorReadOnly
 from .serializers import UserChoiceSerializer, FinishedPolls
-from rest_framework import status
 from polls.models import Question
 
 
@@ -53,7 +53,6 @@ class UserChoiceViewsSet(viewsets.ViewSet):
 
 
 class UserFinishedPolls(viewsets.ViewSet):
-
 
     permission_classes = [IsAdminorReadOnly]
 
