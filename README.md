@@ -25,9 +25,25 @@
 - документация по API
 
 
+## Деплой
 
-### Документация:
+### Для развертывания проекта выполнить:
+ ```
+ mkdir fabrika_test
+ cd fabrika_test
+ git init
+ git pull https://github.com/warrinot/fabrika_test.git
+ pip install virtualenv
+ python -m venv venv
+ pip install -r requirements.txt
+ python manage.py migrate
+ python manage.py loaddata testdata.json
+ python manage.py runserver
+ ```
+## Документация:
 #### Документация админа
+##### Для всех запросов админа следует использовать login:password ```admin:123``` 
+например ```curl -u admin:123 http://127.0.0.1:8000/admin_api/polls/```
 ##### `/admin_api/` - корневой url api для админа
 ##### `/admin_api/polls/` - api для управления опросами:
  - `GET` - выдает список всех опросов
@@ -106,7 +122,7 @@
     "user_id": 321,
     "text_choice": "Текст ответа"
     }
-##### Если тип вопроса - ответ с выбором одного варианта или ответ с выбором нескольких вариантов, отправляется:
+##### Если тип вопроса - "ответ с выбором одного варианта" или "ответ с выбором нескольких вариантов", отправляется:
     {
     "question": 13,
     "choice": [
