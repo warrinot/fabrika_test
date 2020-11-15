@@ -35,6 +35,7 @@
  git pull https://github.com/warrinot/fabrika_test.git
  pip install virtualenv
  python -m venv venv
+ source venv/bin/activate //на Linux или "venv\scripts\activate" на Windows
  pip install -r requirements.txt
  python manage.py migrate
  python manage.py loaddata testdata.json
