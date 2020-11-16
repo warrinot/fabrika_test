@@ -21,7 +21,7 @@ class UserChoiceViewsSet(viewsets.ViewSet):
     def create(self, request):
         serializer = UserChoiceSerializer(data=request.data)
         if not serializer.is_valid():
-            return Response(serializer.errors, status=400)
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         user_id = serializer.validated_data.get('user_id')
         question = serializer.validated_data.get('question')
 
@@ -32,21 +32,24 @@ class UserChoiceViewsSet(viewsets.ViewSet):
             user_choice = False
 
         if user_choice:
-            return Response('User already answered', status=status.HTTP_404_NOT_FOUND)
+            return Response('User already answered', status=status.HTTP_400_BAD_REQUEST)
 
         # check if it is text choice answer
         if question.question_type == Question.TEXT_OPTION:
             if not serializer.validated_data.get('text_choice'):
-                return Response('Bad request', status=status.HTTP_400_BAD_REQUEST)
+                return Response('Question answer should be text',
+                                status=status.HTTP_400_BAD_REQUEST)
 
         # check if it is single option answer
         elif question.question_type == Question.SINGLE_OPTION:
             if len(serializer.validated_data.get('choice')) != 1:
-                return Response('Bad request', status=status.HTTP_400_BAD_REQUEST)
+                return Response('Question answer should be single option',
+                                status=status.HTTP_400_BAD_REQUEST)
         # check if it is multiple options answer
         elif question.question_type == Question.MULTIPLE_OPTIONS:
             if not serializer.validated_data.get('choice'):
-                return Response('Bad request', status=status.HTTP_400_BAD_REQUEST)
+                return Response('Question answer should contain option',
+                                status=status.HTTP_400_BAD_REQUEST)
 
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)

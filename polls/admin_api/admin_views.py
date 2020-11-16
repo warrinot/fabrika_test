@@ -12,11 +12,11 @@ class PollViewSet(viewsets.ModelViewSet):
 
 class QuestionViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAdminUser, permissions.IsAuthenticated]
-    queryset = Question.objects.all()
+    queryset = Question.objects.all().select_related('poll')
     serializer_class = QuestionSerializer
 
 
 class ChoiceViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAdminUser, permissions.IsAuthenticated]
-    queryset = Choice.objects.all()
+    queryset = Choice.objects.all().select_related('question')
     serializer_class = ChoiceSerializer
