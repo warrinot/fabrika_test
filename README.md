@@ -41,7 +41,13 @@
  python manage.py loaddata testdata.json
  python manage.py runserver
  ```
+
+
+
 ## Документация:
+
+#### запуск тестов `python manage.py test`
+
 #### Документация админа
 ##### Для всех запросов админа следует использовать login:password ```admin:123``` 
 например ```curl -u admin:123 http://127.0.0.1:8000/admin_api/polls/```
