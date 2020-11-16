@@ -6,7 +6,7 @@ from rest_framework import status
 from polls.admin_api.serializers import PollSerializer
 from polls.models import Poll, UserChoice
 from .permissions import IsAdminorReadOnly
-from .serializers import UserChoiceSerializer, FinishedPolls
+from .serializers import UserChoiceSerializer, FinishedPollsSerializer
 from polls.models import Question
 
 
@@ -57,7 +57,9 @@ class UserFinishedPolls(viewsets.ViewSet):
     permission_classes = [IsAdminorReadOnly]
 
     def list(self, request):
-        user_id = request.data.get('user_id')
+        user_id = request.query_params.get('user_id')
+        if not user_id:
+            return Response('user_id was not provided', status.HTTP_400_BAD_REQUEST)
         polls = Poll.objects.filter(questions__user_choices__user_id=user_id)
-        serializer = FinishedPolls(set(polls), many=True)
+        serializer = FinishedPollsSerializer(set(polls), many=True)
         return Response(serializer.data, status.HTTP_200_OK)

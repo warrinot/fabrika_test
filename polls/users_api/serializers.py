@@ -17,7 +17,7 @@ class UserChoiceSerializer(serializers.ModelSerializer):
         fields = ['question', 'choice', 'user_id', 'text_choice']
 
 
-class FinishedPolls(serializers.ModelSerializer):
+class FinishedPollsSerializer(serializers.ModelSerializer):
     questions = QuestionSerializer(many=True, read_only=True)
 
     class Meta:
