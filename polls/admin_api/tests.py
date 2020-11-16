@@ -1,8 +1,7 @@
 from rest_framework.test import APITestCase
 from rest_framework import status
-from polls.models import Poll, Question, Choice, UserChoice
+from polls.models import Poll, Question, Choice
 from django.urls import reverse
-from django.utils import timezone
 from django.contrib.auth.models import User
 from .serializers import PollSerializer, QuestionSerializer, ChoiceSerializer
 

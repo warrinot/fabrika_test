@@ -9,8 +9,6 @@ class QuestionSerializer(serializers.ModelSerializer):
 
 
 class UserChoiceSerializer(serializers.ModelSerializer):
-    # question = QuestionSerializer()
-    # text_choice = serializers.CharField(max_length=255)
 
     class Meta:
         model = UserChoice

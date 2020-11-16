@@ -10,6 +10,7 @@ admin.site.register(UserChoice)
 class ChoiceInline(admin.StackedInline):
     model = Choice
 
+
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ['poll', 'text', 'question_type']
