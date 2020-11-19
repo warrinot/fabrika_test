@@ -9,7 +9,7 @@ admin_router = routers.DefaultRouter()
 admin_router.register('polls', admin_views.PollViewSet)
 admin_router.register('questions', admin_views.QuestionViewSet)
 admin_router.register('choices', admin_views.ChoiceViewSet)
-admin_router.register('nested_polls', admin_views.NestedPollViewSet)
+admin_router.register('nested_polls', admin_views.NestedPollViewSet, basename='nested_polls')
 
 user_router = routers.DefaultRouter()
 user_router.register('active_polls', user_views.ActivePollViewSet, basename='active_polls')
