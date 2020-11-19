@@ -4,6 +4,7 @@ from polls.models import Poll, Question, Choice
 from django.urls import reverse
 from django.contrib.auth.models import User
 from .serializers import PollSerializer, QuestionSerializer, ChoiceSerializer
+import json
 
 
 def get_test_poll(name, description):
@@ -227,3 +228,54 @@ class ChoicesTestCase(APITestCase):
         response = self.client.delete(url)
         self.assertEqual(5, Choice.objects.all().count())
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+
+
+class NestedPollTestCase(APITestCase):
+    def setUp(self):
+        self.user1 = User.objects.create_user(username='admin', is_staff=True)
+        self.client.force_authenticate(self.user1)
+
+    def test_query_creates_nested_objects(self):
+        url = reverse('nested_polls-list')
+        choice_1_data = {
+            "text": "Рок"
+        }
+        choice_2_data = {
+            "text": "Попса"
+        }
+        choice_3_data = {
+            "text": "The Queen"
+        }
+
+        choice_4_data = {
+            "text": "The Beatles"
+        }
+
+        question_1_data = {
+            "text": "Какую музыку вы предпочитаете?",
+            "question_type": 2,
+            "choices": [choice_1_data, choice_2_data]
+        }
+
+        question_2_data = {
+            "text": "Какой исполнитель вам больше нравится?",
+            "question_type": 2,
+            "choices": [
+                choice_3_data,
+                choice_4_data
+            ]
+        }
+
+        poll_data = {
+            "name": "123",
+            "description": "321",
+            "questions": [question_1_data,
+                          question_2_data
+                          ]
+        }
+        response = self.client.post(url, data=json.dumps(poll_data),
+                                    content_type='application/json')
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        created_poll = Poll.objects.last()
+        questions = Question.objects.filter(poll=created_poll)
+        self.assertEqual(questions[0].text, 'Какую музыку вы предпочитаете?')
