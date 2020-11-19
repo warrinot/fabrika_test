@@ -29,3 +29,4 @@ class NestedPollViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAdminUser, permissions.IsAuthenticated]
     queryset = Poll.objects.all()
     serializer_class = NestedSerializer
+    http_method_names = ['get', 'post', 'head']
